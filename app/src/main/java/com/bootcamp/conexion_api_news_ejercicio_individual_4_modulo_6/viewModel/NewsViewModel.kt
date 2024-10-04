@@ -53,4 +53,18 @@ class NewsViewModel @Inject constructor(private val repository: NewsRepository) 
             }
         }
     }
+
+    fun cleanNewsState() {
+        state = state.copy(
+            source = null,
+            author = "",
+            title = "",
+            description = "",
+            url = "",
+            urlToImage = ""
+        )
+    }
+
+
+
 }
