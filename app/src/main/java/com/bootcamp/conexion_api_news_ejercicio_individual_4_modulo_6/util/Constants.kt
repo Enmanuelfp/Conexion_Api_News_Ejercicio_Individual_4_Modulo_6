@@ -5,6 +5,9 @@ class Constants {
         const val BASE_URL = "https://newsapi.org/v2/"
         const val ENDPOINT = "top-headlines?country=us"
         const val API_KEY = "&apiKey=84ccd5fbee914f6eb63aabf0bbc9b86f"
+
+        const val CUSTOM_BLACK = 0xFF282626
+
     }
 }
 
